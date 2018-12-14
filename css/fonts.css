@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('../fonts/TrebuchetMS-Bold.eot');
+  src: url('../fonts/TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TrebuchetMS-Bold.woff2') format('woff2'),
+    url('../fonts/TrebuchetMS-Bold.woff') format('woff'),
+    url('../fonts/TrebuchetMS-Bold.ttf') format('truetype'),
+    url('../fonts/TrebuchetMS-Bold.svg#TrebuchetMS-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('../fonts/LucidaSans.eot');
+  src: url('../fonts/LucidaSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/LucidaSans.woff2') format('woff2'),
+    url('../fonts/LucidaSans.woff') format('woff'),
+    url('../fonts/LucidaSans.ttf') format('truetype'),
+    url('../fonts/LucidaSans.svg#LucidaSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hilde';
+  src: url('../fonts/HildeSharpie.eot');
+  src: url('../fonts/HildeSharpie.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HildeSharpie.woff2') format('woff2'),
+    url('../fonts/HildeSharpie.woff') format('woff'),
+    url('../fonts/HildeSharpie.ttf') format('truetype'),
+    url('../fonts/HildeSharpie.svg#HildeSharpie') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Demi';
+  src: url('../fonts/LucidaSans-Demi.eot');
+  src: url('../fonts/LucidaSans-Demi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/LucidaSans-Demi.woff2') format('woff2'),
+    url('../fonts/LucidaSans-Demi.woff') format('woff'),
+    url('../fonts/LucidaSans-Demi.ttf') format('truetype'),
+    url('../fonts/LucidaSans-Demi.svg#LucidaSans-Demi') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-BoldCond.eot');
+  src: url('../fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-BoldCond.woff2') format('woff2'),
+    url('../fonts/MyriadPro-BoldCond.woff') format('woff'),
+    url('../fonts/MyriadPro-BoldCond.ttf') format('truetype'),
+    url('../fonts/MyriadPro-BoldCond.svg#MyriadPro-BoldCond') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}

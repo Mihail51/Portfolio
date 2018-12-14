@@ -1,0 +1,694 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	max-width: 1400px;
+	min-height: 1641px;
+	margin: 0 auto;
+	padding-left: 78px;
+	font-family: 'Lucida Sans';
+    font-size: 13px;
+    font-weight: 400;
+	background-image: url(../img/Background.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+.content {
+	position: relative;
+	max-width: 850px;
+	height: 1466px;
+	margin-right: -295px;
+	background: url(../img/Content_Background.png) no-repeat;
+	z-index: 10;
+}
+.conteiner {
+	margin-left: 96px;
+	margin-right: 67px;
+/*	border-left: 1px solid #000;
+	border-right: 1px solid #000; */  
+}
+header {
+	width: 100%;
+	min-height: 38px;
+	margin-top: 64px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	width: 283px;
+	margin-left: -2px;
+}  
+.logo h1 {
+	font-family: 'Myriad Pro';
+	color: #000000;
+	font-size: 52.5px;
+	font-weight: 700;
+	line-height: 35px;
+	text-align: left;
+	text-transform: uppercase; 
+}  
+nav a {
+	display: inline-block;
+     text-decoration: none;
+     width: 83px;
+     font-family: 'Trebuchet MS';
+	color: #a7262c;
+	font-size: 16.41px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: left;
+	box-sizing: border-box;
+	height: 42px;	
+}
+nav a:first-child {
+	margin-right: 33px;
+}
+nav a:nth-child(2) {
+	margin-right: 30px;
+}
+nav a:nth-child(3) {
+	margin: 0 13px;
+}
+nav a:hover {
+	color: #000000;
+	background: url(../img/HoverEffect.png) no-repeat left 70%;
+}   
+#about_me {
+    width: 100%;
+    margin-top: 79px;
+    margin-bottom: 43px;
+    border-bottom: 14px solid #000;
+    -moz-border-image: url('../img/DeviderTop.png') 0 0 14 0;
+    -webkit-border-image: url('../img/DeviderTop.png') 0 0 14 0; 
+    -o-border-image: url('../img/DeviderTop.png') 0 0 14 0;
+    border-image: url('../img/DeviderTop.png') 0 0 14 0;
+}
+.about_me {
+	font-family: 'Trebuchet MS';
+	color: #000000;
+	font-size: 21.88px;
+	font-weight: 700;
+	line-height: 15px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	padding-left: 5px;
+}
+.about {
+	font-family: 'Lucida Sans';
+	color: #171616;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	text-align: left;
+	padding-left: 3px;
+	margin-bottom: 5px;
+}
+.social {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	height: 41px;
+	margin-bottom: 46px;
+	margin-left: -5px;
+
+}
+.social a {
+	font-family: 'Trebuchet MS';
+	color: #000000;
+	font-size: 15.31px;
+	font-weight: 700;
+	line-height: 41px;
+	text-align: left;
+	text-decoration: none;
+	margin: 0 auto;
+}
+.social a:first-child {
+	width: 200px;
+	background: url(../img/Twitter.png) no-repeat center right;
+}
+.social a:nth-child(2) {
+	width: 200px;
+	background: url(../img/Facebook.png) no-repeat center right;
+}
+.social a:last-child {
+	width: 220px;
+	background: url(../img/Picasa.png) no-repeat center right;
+}
+#portfolio {
+	width: 100%;
+	min-height: 380px;
+}
+.conteiner2 {
+	border-bottom: 25px solid #000;
+	-moz-border-image: url('../img/DeviderBottom.png') 0 0 25 0;
+    -webkit-border-image: url('../img/DeviderBottom.png') 0 0 25 0; 
+    -o-border-image: url('../img/DeviderBottom.png') 0 0 25 0;
+    border-image: url('../img/DeviderBottom.png') 0 0 25 0;
+}
+.portfolio {
+	font-family: 'Trebuchet MS';
+	color: #000000;
+	font-size: 21.88px;
+	font-weight: 700;
+	line-height: 15px;
+	text-align: left;
+	text-transform: uppercase;
+	padding-left: 4px;
+	margin-bottom: 2px
+}
+#portfolio .slider {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	
+}
+.slider img {
+	width: 220px;
+	height: 147px;
+	margin-top: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid #c5c4c7;
+}
+footer {
+	width: 100%;
+	min-height: 480px;
+    margin-bottom: 62px;
+/*	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;    */
+}
+.conteiner3 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#get_interested {
+	width: calc(50% - 11px);
+	height: 480px;
+}
+.interested {
+    font-family: 'Trebuchet MS';
+	color: #000000;
+	font-size: 21.88px;
+	font-weight: 700;
+	line-height: 15px;
+	text-align: left;
+	margin-top: 55px;
+	text-transform: uppercase;
+	padding-left: 3px;
+}
+#get_interested p {
+	font-family: 'Lucida Sans';
+	color: #171616;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18.6px;
+	text-align: left;
+	margin-top: 18px;
+	margin-bottom: 50px;
+	padding-left: 5px;
+}
+#get_interested img {
+	display: block;
+	width: 220px;
+	height: 184px;
+	margin-left: 40px;
+}
+
+
+.forms {
+	width: calc(50% - 11px);
+	height: 420px;
+	text-align: left;
+	margin-top: 65px;
+}
+.forms form {
+	margin-left: 5px;
+	margin-top: 25px;
+	background: url(../img/Right.png) no-repeat 297px 106px, url(../img/RightName.png) no-repeat 298px 25px;
+}
+.forms input, textarea {
+	display: block;  
+	border: none;
+	width: 100%;
+	height: 40px;
+    margin-bottom: 15px;
+    padding-left: 7px;
+    background: url(../img/BorderMail.png) no-repeat left bottom;
+    font-family: 'Lucida Sans';
+	color: #171616;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18.6px;
+}
+.forms form input:nth-child(2) {
+	background: url(../img/RightName.png) no-repeat;
+}
+.forms textarea {
+	height: 148px;
+	padding-top: 15px;
+}
+
+.forms label {
+	font-family: 'Demi';
+	font-size: 14px;
+	line-height: 18.6px;
+/*	margin: 30px 0;   */
+	padding-left: 5px;
+
+}
+.forms .button {
+	width: 176px;
+	height: 42px;
+	background: url("../img/Bottom.png") no-repeat;
+	margin: 0 auto;
+	font-family: 'Demi';
+	font-size: 13px;
+	line-height: 18.6px;
+}
+.copyrite-wrap {
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	height: 17px;
+	left: calc(50% - 270px/2);
+	bottom: 20px;
+}
+.copyrite {
+	font-family: 'Lucida Sans';
+	color: #fff;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 17px;
+	text-align: left;
+
+}
+
+
+/* Стол */
+.table {
+	position: relative;
+	width: 625px;
+	height: 1640px;
+	margin-left: -73px;
+}
+.table .Blueprint {
+	position: absolute;
+	top: 5px;
+}
+.table .CoffeCup {
+	position: absolute;
+	top: 0;
+	left: 320px;
+	z-index: 15;
+}
+.table .Shadow {
+	position: absolute;
+	top: 148px;
+	left: 378px;
+	z-index: 10;
+	opacity: .2;
+}  
+.table .note {
+	position: absolute;
+	background: url(../img/YellowNote.png) no-repeat;
+	width: 171px;
+	height: 181px;
+	top: 316px;
+	left: 435px;
+	z-index: 5;
+} 
+.table .note p {
+	font-family: Hilde;
+	color: #000000;
+	font-size: 18px;
+	line-height: 17px;
+	text-align: left;
+	letter-spacing: -1px;
+}
+.table .note .feed {
+	position: absolute;
+	width: 87px;
+	height: 33px;
+	top: 27px;
+	left: 36px;
+}
+.table .note .Clean {
+	position: absolute;
+	width: 96px;
+	height: 33px;
+	top: 46px;
+	left: 38px;
+}
+.table .note .Save {
+	position: absolute;
+	width: 99px;
+	height: 26px;
+	top: 69px;
+	left: 40px;
+}
+.table .note .feed .Feed_my_cat {
+	transform: matrix(0.9807,-0.1958,0.1957,0.9809,0,0);
+}
+.table .note .Clean .Clean_the_desk {
+	transform: matrix(0.9843,-0.1765,0.1765,0.9845,0,0);
+}
+.table .note .Save .Save_the_planet {
+	transform: matrix(0.9859,-0.1672,0.1671,0.9862,0,0);
+} /* */
+.table .Subscribe {
+	position: absolute;
+	top: 87px;
+	left: 82px;
+}   
+.table .Pen {
+	position: absolute;
+	top: 162px;
+	left: 347px;
+	z-index: 10;
+}
+.table .Iphone {
+	position: absolute;
+	top: 396px;
+	left: 350px;
+	z-index: 10;
+}
+@media (max-width: 1200px) {
+	.table .Pen {
+		top: 206px;
+		left: 282px;
+	}
+	.table .note {
+		left: 408px;
+	}
+	.table .Iphone {
+		left: 320px;
+	}
+}
+@media (max-width: 1135px) {
+	.table {
+		width: 430px;
+	}
+	.table .Blueprint {
+		width: 430px;
+	}
+	.table .Pen {
+		top: 253px;
+		left: 136px;
+	}
+	.table .Iphone {
+		left: 173px;
+		top: 679px;
+	/*	width: 181px;   */
+	}
+	.table .note {
+		left: 256px;
+		top: 372px;
+		z-index: 10;
+	}
+	.table .CoffeCup, .table .Shadow {
+		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	body {
+		padding-left: 0;
+		background-repeat: repeat;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+	.content {
+		margin: 0 auto;
+	}
+	.table {
+		display: none;
+	}
+@media (max-width: 850px) {
+	.content {
+		background: none;
+	}
+	#info, #portfolio, footer {
+		padding-top: 1px;
+		max-width: 575px;
+		height: 982px;
+		background: url(../img/Content_Background.png) no-repeat;
+		background-size: 100%;
+		margin: 0 auto;
+	}
+	.conteiner {
+		margin-left: 11.5%;
+		margin-right: 8.35%;
+	}
+	header {
+		margin-top: 37px;
+	}
+	.logo h1 {
+		display: block;
+		width: 100%;
+		font-size: 35px;
+	}
+	nav {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	.about_me {
+		margin-bottom: 40px;
+	}
+	.about {
+ 		margin-bottom: 38px;
+ 		font-size: 16px;
+ 		line-height: 21px;   
+	}
+	.social {
+		height: auto;
+		flex-direction: column;
+		margin-bottom: 90px;
+	}
+	.social a {
+		margin: 10px auto;
+	}
+	.portfolio {
+		font-size: 32px;
+		text-transform: none;
+		padding-top: 47px;
+	}
+	#portfolio .slider {
+		margin-top: 40px;
+		margin-bottom: 70px;
+	}
+	.slider img {
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	.interested {
+		width: 192px;
+		font-size: 26px;
+		line-height: 40px;
+		margin-top: 36px;
+		text-transform: none;
+		text-align: center;
+		padding-left: 0;
+	}
+	#get_interested p {
+		margin-top: 46px;
+		margin-bottom: 100px;
+		font-size: 16px;
+		line-height: 21px;
+	}
+	#get_interested img {
+		margin-left: 0;
+	}
+	.forms {
+		margin-top: 140px;
+	}
+	.forms form {
+		background: url(../img/Right.png) no-repeat 200px 106px, url(../img/RightName.png) no-repeat 205px 25px;
+	}
+	.forms input, textarea {
+		margin-bottom: 20px;
+	}
+} 
+
+@media (max-width: 575px) {
+	#info, #portfolio, footer {
+		padding-top: 1px;
+		max-width: 340px;
+		height: 580px;
+		background: url(../img/Content_Background.png) no-repeat;
+		background-size: 100%;
+		margin: 0 auto;
+	}
+	.conteiner {
+		margin-left: 11.5%;
+		margin-right: 8.35%;
+	}
+	header {
+		margin-top: 14px;
+	}
+	.logo h1 {
+		display: block;
+		width: 100%;
+		font-size: 21px;
+	}
+	nav {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	nav a {
+		width: 65px;
+		height: 35px;
+		font-size: 12px;
+	}
+	#about_me {
+		margin-top: 20px;
+	}
+	.about_me {
+		font-size: 15px;
+		margin-bottom: 12px;
+	}
+	.about {
+ 		margin-bottom: 10px;
+ 		font-size: 10px;
+ 		line-height: 14px;   
+	}
+	.social {
+		height: auto;
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+	.social a {
+		margin: 0 auto;
+		font-size: 12px;
+	}
+	.social a:first-child {
+    width: 150px;
+    background: url(../img/Twitter0,5x.png) no-repeat center right;
+	}
+	.social a:nth-child(2) {
+	width: 150px;
+	background: url(../img/Facebook0,5x.png) no-repeat center right;
+	}
+	.social a:last-child {
+		width: 170px;
+		background: url(../img/Picasa0,5x.png) no-repeat center right;
+	}
+	.portfolio {
+		font-size: 20px;
+		text-transform: none;
+		padding-top: 23px;
+		padding-left: 0px;
+	}
+	#portfolio .slider {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	.slider img {
+		width: 135px;
+		height: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.interested {
+		width: 192px;
+		font-size: 15px;
+		line-height: 40px;
+		margin-top: 12px;
+		text-transform: none;
+		text-align: left;
+	}
+	#get_interested {
+		width: 100%;
+		height: auto;
+	}
+	#get_interested p {
+		margin-top: 12px;
+		margin-bottom: 0;
+		font-size: 10px;
+		line-height: 14px;
+	}
+	#get_interested img {
+		display: none;
+	}
+	.forms {
+		width: 100%;
+		height: auto;
+		margin-top: 0;
+	}
+	.forms form {
+		background: url(../img/Right.png) no-repeat 250px 115px, url(../img/RightName.png) no-repeat 250px 26px;
+	}
+	.forms label {
+		font-size: 12px;
+		line-height: 23px;
+		padding-left: 0;
+	}
+	.forms input, textarea {
+		width: 95%;
+		margin-bottom: 20px;
+		padding-left: 0;
+	}
+	.forms textarea {
+		height: 140px;
+	}
+	.forms .button {
+		margin: -10px auto;
+	}
+	.copyrite-wrap {
+		left: 57px;
+		bottom: 14px;
+	}
+	.copyrite {
+		font-size: 9px;
+		line-height: 10px;
+	}
+} 
